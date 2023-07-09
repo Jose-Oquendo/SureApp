@@ -1,0 +1,56 @@
+.list-load{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--dark-gray);
+    background-color: whitesmoke;
+    margin: 12px 0;
+    border-radius: 20px;
+    height: 4em;
+    padding: 0 30px;
+}
+.list-load div{
+    position: relative;
+}
+.list-load span{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: var(--dark-gray);
+}
+.cheack-load{
+    position: absolute;
+    left: 2px;
+    top: -24px;
+}
+.delete-load{
+    position: absolute;
+    /* top: -24px; */
+    /* right: 0; */
+    top: -36px;
+    right: -34px
+}
+
+.list-load, .list-load div, .list-load span{
+    background: linear-gradient(90deg, rgba(250, 250, 250, 1), rgb(200,199,199));
+    background-size: 400% 400%;
+    animation: brilloAnimacion 3s ease-in-out infinite;
+}
+
+  @keyframes brilloAnimacion {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+  }

@@ -1,0 +1,29 @@
+.mybtn{
+    border-radius: .7em;
+    border: 1px solid var(--light-purple);
+    background-color: var(--light-purple);
+    color: var(--light-text);
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn-create{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 25px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    font-size: 2.5em;
+    z-index: 10;
+    transition: transform 0.5s;
+}
+.btn-create:active{
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+}
+.btn-rotate{
+    transform: rotate(45deg);
+    transition: transform 0.5s;
+}

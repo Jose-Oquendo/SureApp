@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&family=Rubik:wght@300;500;700&display=swap');
+
+:root {
+    --text-lg: 24px;
+    --text-md: 14px;
+    --text-sm: 9px;
+    --fondo-color: #ffffff;
+    --dark-purple: #352D4D;
+    --light-purple: #6D6192;
+    --cyan: #69B0C1;
+    --dark-cyan: #518896;
+    --lighty-green: #92E0A9;
+    --light-text: white;
+    --dark-text: black;
+    --dark-gray: rgb(58, 58, 58);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: var(--fondo-color);
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+h1{
+    font-size: var(--text-lg);
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+input{
+    border: 1px solid lightgray;
+    border-radius: 7px;
+    min-height: 30px;
+    font-size: var(--text-md);
+}
+input:active{
+    border: 2px solid gray;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 5%;
+}
+.search-todo{
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: white;
+    box-shadow: .35em .30em .35em .20em rgba(0, 0, 0, 0.13);
+}

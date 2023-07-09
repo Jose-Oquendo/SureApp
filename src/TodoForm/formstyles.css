@@ -1,0 +1,58 @@
+.form-newtodo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form-newtodo label{
+    color: #1E1E1F;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.54);
+    width: 100%;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.form-newtodo textarea{
+    background-color: #f9fbfc;
+    border:  2px solid #2023297c;
+    border-radius: 2px;
+    max-width: 300px;
+    max-height: 120px;
+    color: #1E1E1F;
+    font-size: 15px;
+    text-align: center;
+    padding: 12px;
+    height: 96px;
+    width: calc(100% - 25px);
+}
+.form-newtodo textarea:focus{
+    outline-color: var(--cyan);
+}
+.buttoncontainer{
+    margin-top: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.btn-form{
+    cursor: pointer;
+    font-size: 15px;
+    color: #202329;
+    font-weight: 400;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Montserrat';
+}
+.btn-form-cancel{
+    background: transparent;
+    border: 1px solid #202329;
+}
+.btn-form-add{
+    background-color: var(--cyan);
+    box-shadow: 0px 5px 25px rgba(97, 218, 250, 0.5);
+    color: white;
+}
