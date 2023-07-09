@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/To-do-List/static/css/main.72569919.css",
+    "main.js": "/To-do-List/static/js/main.97c583af.js",
+    "static/media/cancel_FILL0_wght700_GRAD0_opsz40.svg": "/To-do-List/static/media/cancel_FILL0_wght700_GRAD0_opsz40.46a0e3b98e8d82b6b45f1e6172efa940.svg",
+    "static/media/check_circle_FILL0_wght700_GRAD0_opsz40.svg": "/To-do-List/static/media/check_circle_FILL0_wght700_GRAD0_opsz40.f397f31aba37b893e3b808620777d734.svg",
+    "index.html": "/To-do-List/index.html",
+    "main.72569919.css.map": "/To-do-List/static/css/main.72569919.css.map",
+    "main.97c583af.js.map": "/To-do-List/static/js/main.97c583af.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.72569919.css",
+    "static/js/main.97c583af.js"
+  ]
+}
